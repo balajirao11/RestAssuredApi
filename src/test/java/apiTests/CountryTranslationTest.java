@@ -40,6 +40,6 @@ public class CountryTranslationTest {
                 .response();
 
         System.out.println("status code:" + response.getStatusCode()+ " for "+translation);
-       // Assert.assertEquals(response.getStatusCode(), 200, "API call for " + translation);
+        Assert.assertEquals(response.getStatusCode(), 200, "API call for " + translation);
     }
 }
