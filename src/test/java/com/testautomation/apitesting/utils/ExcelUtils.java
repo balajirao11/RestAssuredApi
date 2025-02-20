@@ -26,7 +26,7 @@ public class ExcelUtils {
         int rows = sheet1.getPhysicalNumberOfRows();
         int cols = sheet1.getRow(0).getLastCellNum();
         System.out.println("File path:" +filePath);
-        System.out.println("Sheet:" +sheetName);
+        System.out.println("Sheet name:" +sheetName);
         System.out.println("data:" +data);
         System.out.println("sheet name:" +sheet1);
             // Get the header row
